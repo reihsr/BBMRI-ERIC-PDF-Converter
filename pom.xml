@@ -7,6 +7,7 @@
     <groupId>eu.bbmri.eric.csit.utils.pdf-converter</groupId>
     <artifactId>BBMRI-ERIC-PDF-Converter</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
@@ -33,11 +34,6 @@
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
-
-
-
-
-
     </dependencies>
 
 </project>
