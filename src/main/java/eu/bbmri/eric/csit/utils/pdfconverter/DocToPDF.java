@@ -69,7 +69,7 @@ public class DocToPDF {
             PdfOptions options = PdfOptions.create();
             // 3) Convert XWPFDocument to Pdf
             PdfConverter.getInstance().convert(document, out, options);
-        } catch (Throwable e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
